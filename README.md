@@ -26,3 +26,40 @@ $$\lim_{x \rightarrow \, 0} f(x)  = 0$$
 Bilateral limit of a discontinuous function
 $$ f(x) = \begin{cases} x + \tan(x) \,\, \text{if} \, x \neq 0 \\ \pi + e \,\, \text{if} \, x = 0 \end{cases} $$
 $$\lim_{x \rightarrow \, 0} f(x)  = 0$$
+
+## Derivatives
+
+Derivative of quadratic function
+$$ \frac{d}{dx} \left( x^2 \right) \Big|_{x=0} = 0 $$
+
+Derivative of a quintic function
+$$ \frac{d}{dx} \left( x^5 - 2x^4 + 3x^3 - 4x^2 + 5x - 6 \right) \Big|_{x=1} = 3 $$
+
+Derivative of sine function
+$$ \frac{d}{dx} \left( \sin(2x) \right) \Big|_{x=0} = 2 $$
+
+Derivative of tangent function
+$$ \frac{d}{dx} \left( \tan(x) \right) \Big|_{x=\pi/6} = \frac{4}{3} $$
+
+Derivative of logarithm function
+$$ \frac{d}{dx} \left( \ln(x) \right) \Big|_{x=13} = \frac{1}{13} $$
+
+Derivative of square root function
+$$ \frac{d}{dx} \left( \sqrt{x} \right) \Big|_{x=2} = \frac{\sqrt{2}}{4} $$
+
+Derivative of product of functions
+$$ \frac{d}{dx} \left( x^2 \ln(x) \right) \Big|_{x=e} = 3e $$
+
+Derivative of quotient of functions
+$$ \frac{d}{dx} \left( \frac{x}{e^x} \right) \Big|_{x=0} = 1 $$
+
+Derivative of composite functions
+$$ \frac{d}{dx} \left( e^{\sin(x)} \right) \Big|_{x=0} = 1 $$
+$$ \frac{d}{dx} \left( \sin(\pi e^x) \right) \Big|_{x=\ln(2)} = 2\pi $$
+
+Module function is continuous but not differentiable
+$$ \nexists \,\, \frac{d}{dx} \left( |x| \right) \Big|_{x=0} $$
+
+Discontinuous function is not differentiable
+$$ f(x) = \begin{cases} x^2 \,\, \text{if} \, x \neq 0 \\ 1 \,\, \text{if} \, x = 0 \end{cases} $$
+$$ \nexists \,\, \frac{d}{dx} \left( f(x) \right) \Big|_{x=0} $$
