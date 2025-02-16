@@ -63,3 +63,39 @@ $$ \nexists \,\, \frac{d}{dx} \left( |x| \right) \Big|_{x=0} $$
 Discontinuous function is not differentiable
 $$ f(x) = \begin{cases} x^2 \,\, \text{if} \, x \neq 0 \\ 1 \,\, \text{if} \, x = 0 \end{cases} $$
 $$ \nexists \,\, \frac{d}{dx} \left( f(x) \right) \Big|_{x=0} $$
+
+
+## Integrals
+
+
+Integral of identity function
+$$ \int_{0}^{3} x dx = \frac{9}{2} $$
+
+Integral of quadratic function
+$$ \int_{0}^{1} x^2 + 1 \, dx = \frac{4}{3} $$
+
+Integral of odd function in symmetrical interval
+$$ \int_{-1}^{1} x^3 - 3x \, dx = 0 $$
+
+Integral of cosine function
+$$ \int_{\pi/2}^{\pi} \cos(x) \, dx = -1 $$
+
+Integral of exponential function
+$$ \int_{0}^{\ln(3)} e^x \, dx = 2 $$
+
+Integral of logarithm function (integration by parts)
+$$ \int_{1}^{e^2} \ln(x) \, dx = e^2 + 1 $$
+
+Integral of rational function (integration by substitution)
+$$ \int_{1}^{2} \frac{1}{x+1} \, dx = \ln(\frac{3}{2}) $$
+
+Integral of cosine identities
+$$ \int_{0}^{\pi} \cos(x)^2 \, dx = \frac{\pi}{2} $$
+$$ \int_{0}^{\pi} \cos(2x)\cos(3x) \, dx = 0 $$
+
+Integral of interesting power
+$$ \int_{0}^{1} x^{-x}(1-x)^{x-1}\sin(\pi x) \, dx = \frac{\pi}{e} $$
+
+Sophomore's Dream Identities
+$$ \int_{0}^{1} x^{-x} \, dx = \sum_{n=1}^{\infty} n^{-n} \approx 1.29128599706266 $$
+$$ \int_{0}^{1} x^{x} \, dx = \sum_{n=1}^{\infty} (-1)^{n+1}n^{-n} \approx 0.78343051071213 $$
